@@ -25,7 +25,7 @@ SECRET_KEY = 'abyfz6ks#7l9#7ix5(xgkcl3@q=0ha!k1@lu8eqtq&od_c$r&r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://fbprojectbaabtra.herokuapp.com/']
 
 
 # Application definition
