@@ -25,7 +25,7 @@ SECRET_KEY = 'abyfz6ks#7l9#7ix5(xgkcl3@q=0ha!k1@lu8eqtq&od_c$r&r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fbprojectbaabtra.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'facebook'
 ]
 
 MIDDLEWARE = [
